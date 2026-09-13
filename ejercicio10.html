@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Fahrenheit</title>
+    <link rel="stylesheet" href="css/ejercicio10.css">
+    <script src="js/ejercicio10.js"></script>
+</head>
+<body>
+    <div class="contenedor-calculadora">
+        <h1>Calculadora</h1>
+        <p class="subtitulo">Calculadora de Celsius a Fahrenheit</p>
+       
+            <div class="grupo-doble">
+                <label for="Celcius">Celcius</label>
+                <input type="number" id="number" step="any" placeholder="Grados celcius">
+            </div>
+            <div class="grupo-doble">
+                <label for="resultado">Resultado</label>
+                <input type="text" id="resultado" placeholder="°F" readonly>
+            </div>
+            <div class="grupo-doble"></div>
+             <button type="button" class="boton" onclick="convertir()">Convertir</button>
+       
+    </div>
+    
+</body>
+</html>

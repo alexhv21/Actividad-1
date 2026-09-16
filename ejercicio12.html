@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora moneda</title>
+    <link rel="stylesheet" href="css/ejercicio12.css">
+    <script src="js/ejercicio12.js"></script>
+</head>
+<body>
+    <div class="contenedor-calculadora">
+        <h1>Calculadora</h1>
+        <p class="subtitulo">Calculadora de Pesos mexicanos a Dolares</p>
+       
+            <div class="grupo-doble">
+                <label for="Pesos">Pesos Mexicanos</label>
+                <input type="number" id="number" step="any" placeholder="Pesos mexicanos">
+            </div>
+            <div class="grupo-doble">
+                <label for="resultado">Dolares</label>
+                <input type="text" id="resultado" placeholder="$" readonly>
+            </div>
+            <div class="grupo-doble"></div>
+             <button type="button" class="boton" onclick="convertir()">Convertir</button>
+       
+    </div>
+    
+</body>
+</html>

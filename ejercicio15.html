@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edades</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+    <script src="js/ejercicio15.js"></script>
+</head>
+<body>
+    <div class="contenedor-calculadora">
+        <h1>Calificaciones</h1>
+        <p class="subtitulo">Estudiantes</p>
+       
+            <div class="grupo-doble">
+                <label for="Edad">Nombre</label>
+                <input type="text" id="name" step="any" placeholder="Ingresa el nombre">
+            </div>
+         <div class="grupo-doble"></div>
+                <label for="Cali">Calificacion</label>
+                <input type="number" id="number" step="any" placeholder="Ingresa la calificacion">
+            <div class="grupo-doble"></div>
+             <button type="button" class="boton" onclick="agregar()">Agregar estudiante</button>
+             <div class="grupo-doble"></div>
+             <button type="button" class="boton" onclick="calcular()">Calcular</button>
+             
+            <div class="grupo-doble">
+                <label for="resultado">Promedio</label>
+                <input type="text" id="resultado1" placeholder="" readonly>
+            </div>
+            <div class="grupo-doble">
+                <label for="resultado">Estudiante mayor calificacion</label>
+                <input type="text" id="resultado2" placeholder="" readonly>
+            </div>
+            <div class="grupo-doble">
+                <label for="resultado">Estudiante menor calificacion</label>
+                <input type="text" id="resultado3" placeholder="" readonly>
+            </div>
+            
+       
+    </div>
+    
+</body>
+</html>

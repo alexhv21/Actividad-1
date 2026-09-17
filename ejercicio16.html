@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/ejercicio16.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/ejercicio16.js" defer></script>
+</head>
+<body>
+    <div class="contenedor-calculadora">
+        <h1>Operaciones</h1>
+        <p class="subtitulo">Realiza una operacion</p>
+       
+        <div class="grupo-doble">
+            <label for="numero1">Numero 1</label>
+            <input type="text" id="numero1" placeholder="Ingresa el numero">
+        </div>
+
+        <div class="grupo-doble">
+            <label for="numero2">Numero 2</label>
+            <input type="text" id="numero2" placeholder="Ingresa el numero">
+        </div>       
+        <button type="button" class="boton" onclick="calcularOperacion('suma')">Suma</button>
+        <div class="grupo-doble"></div>
+        <button type="button" class="boton" onclick="calcularOperacion('resta')">Restar</button>
+        <div class="grupo-doble"></div>
+        <button type="button" class="boton" onclick="calcularOperacion('multiplicacion')">Multiplicacion</button>
+        <div class="grupo-doble"></div>
+        <button type="button" class="boton" onclick="calcularOperacion('division')">Dividir</button>
+             
+        <div class="grupo-doble">
+            <label for="resultado">Resultado</label>
+            <input type="text" id="resultado" placeholder="" readonly>
+        </div>
+    </div>
+</body>
+</html>

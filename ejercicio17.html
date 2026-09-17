@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Tareas</title>
+    <link rel="stylesheet" href="css/ejercicio17.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/ejercicio17.js" defer></script>
+</head>
+<body>
+
+    <div class="contenedor-calculadora">
+        <h1>Gestión de Tareas</h1>
+        <p class="subtitulo">Organiza tus tareas pendientes</p>
+
+        <div class="grupo-doble">
+            <label for="txtTarea">Nueva tarea</label>
+            <input type="text" id="txtTarea" placeholder="Ingresa una tarea">
+        </div>
+
+        <div class="grupo-doble">
+            <button type="button" class="boton" onclick="ejecutarAgregar()">Agregar Tarea</button>
+        </div>
+
+        <div class="grupo-doble">
+            <label>Tareas pendientes</label>
+            <ul id="listaTareas"></ul>
+        </div>
+    </div>
+
+</body>
+</html>

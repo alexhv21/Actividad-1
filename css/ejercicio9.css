@@ -95,5 +95,5 @@ input:focus, textarea:focus {
 }
 
 .boton-enviar:hover {
-  background-color: green; /* Color oscuro al pasar el mouse */
+  background-color: #2a0880; /* Color oscuro al pasar el mouse */
 }

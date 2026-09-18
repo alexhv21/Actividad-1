@@ -2,7 +2,7 @@ function calcular(){
     let numeros=document.getElementById("number").value.trim();
     if(numeros===""){
         alert("Ingresa los numeros plis")
-return;
+        return;
     }
     let arreglo=numeros.split(",");
     let array=arreglo.map(Number);
